@@ -1,6 +1,6 @@
 function uncoverCard(list, n){
   list.map((card, index) => {
-    n<index ? card : card.covered = false;
+    n < index ? card : card.covered = false;
   })
 
   return list
