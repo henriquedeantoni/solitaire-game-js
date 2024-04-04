@@ -1,3 +1,3 @@
-function splitColumn(list, position){
-    return list.split(position)
+function sliceColumn(list, position){
+    return list.slice(position)
 }
