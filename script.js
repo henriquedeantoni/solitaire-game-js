@@ -36,25 +36,3 @@ function getNewPosition(column, posY){
     }
     return result;
 }
-
-createNewCard = () => {
-
-    const card = document.querySelector('.columnToDo')
-    const creationCard = document.querySelector('.newCard')
-
-    console.log(card)
-    
-    /*const initialHtml=`<div class="item" draggable="true">
-    <p>Write here<br><br></p>
-    </div>`
-
-    
-    let newCard=initialHtml+card.outerHTML*/
-
-
-
-    console.log(card + newCard)
-
-    //card.innerHTML = newCard
-
-}
