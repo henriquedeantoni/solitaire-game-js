@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.upperDiv{
+    display: flex;
+    height: 40vh;
+    width: 100vw;    
+}
+
+.columns{
+    width: 5vw;
+}
+
+.selectorDiv{
+    display: flex;
+    height: 30vh;
+    width: 25vw;
+    border: solid 1px #000000;
+}
+
+.bottomTable{
+
+    display: flex;
+    flex-direction: space-between;
+    gap: 250px;
+
+}
+
+#firstColumn {
+    height: 200px;
+    border: 2px dashed #aaa;
+    padding: 10px;
+}
+#secondColumn {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #aaa;
+    padding: 10px;
+}
+.carta {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    height:150px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 5px;
+    position: relative;
+    left: -1px;
+    
+}
+  
+.carta.dragging {
+    opacity: 0.5; /* Altera a opacidade da carta enquanto é arrastada */
+  }
