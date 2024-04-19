@@ -11,6 +11,11 @@ body{
     width: 100vw;    
 }
 
+.acePile{
+    display: flex;
+    flex-direction: row;
+}
+
 .columns{
     width: 5vw;
 }
@@ -23,10 +28,11 @@ body{
 }
 
 .bottomTable{
-
+    width: 100vw;
+    height: 50vh;
     display: flex;
     flex-direction: space-between;
-    gap: 250px;
+    gap: 5px;
 
 }
 
@@ -35,6 +41,7 @@ body{
     border: 2px dashed #aaa;
     padding: 10px;
 }
+
 #secondColumn {
     width: 300px;
     height: 200px;
