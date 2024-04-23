@@ -7,6 +7,8 @@ body{
 
 .upperDiv{
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 40vh;
     width: 100vw;    
 }
@@ -14,16 +16,22 @@ body{
 .acePile{
     display: flex;
     flex-direction: row;
+    margin: 10px 200px 0 0;
 }
 
 .columns{
-    width: 5vw;
+    margin: 0 10px;
+    width: 210px;
+    height: 300px;
+    border: 2px dashed #aaa;
+    padding: 10px;
 }
 
 .selectorDiv{
+    padding: 5px;
     display: flex;
     height: 30vh;
-    width: 25vw;
+    width: 30vw;
     border: solid 1px #000000;
 }
 
@@ -32,8 +40,9 @@ body{
     height: 50vh;
     display: flex;
     flex-direction: space-between;
+    flex-direction: row;
     gap: 5px;
-
+    margin: 5px auto;
 }
 
 #firstColumn {
@@ -43,12 +52,12 @@ body{
 }
 
 #secondColumn {
-    width: 300px;
+    width: 200px;
     height: 200px;
     border: 2px dashed #aaa;
     padding: 10px;
 }
-.carta {
+.card {
     background-color: #f0f0f0;
     border: 1px solid #ccc;
     height:150px;
@@ -60,7 +69,6 @@ body{
     left: -1px;
     
 }
-  
 .carta.dragging {
     opacity: 0.5; /* Altera a opacidade da carta enquanto é arrastada */
-  }
+}
