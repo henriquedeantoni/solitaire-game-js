@@ -4,3 +4,5 @@ function sliceColumnCard(firstColumn, fisrtPosition, secondPosition){
   
   return Column;
 }
+
+export default sliceColumnCard
