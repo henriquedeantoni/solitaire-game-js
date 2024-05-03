@@ -5,3 +5,5 @@ function uncoverCard(list, n){
 
   return list
 }
+
+export default uncoverCard
