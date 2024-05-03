@@ -8,3 +8,5 @@ function testColumnHierarchy(list){
     })
     return isSortedAce
 }
+
+export default testColumnHierarchy
